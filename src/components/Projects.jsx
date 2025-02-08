@@ -4,9 +4,9 @@ import { Github, ExternalLink } from 'lucide-react';
 export function Projects() {
   const projects = [
     {
-      title: 'College Admission Counseling Website',
+      title: 'College Counseling Call Bot',
       description: 'A comprehensive platform helping students navigate the college admission process with personalized guidance and resources.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS'],
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS','Twilio'],
       github: '#',
       live: 'https://replit.com/@hritik84093/ctc',
       image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
@@ -29,7 +29,7 @@ export function Projects() {
     },
     {
       title: 'Mcq extractor',
-      description: 'A collaborative project management tool with real-time updates, task tracking, and team collaboration features.',
+      description: 'n intelligent MCQ extraction tool that processes PDF files, extracts multiple-choice questions, and displays them in a structured format for easy learning and practice.',
       technologies: ['Html','Css', 'JavaScrript', 'Express.js', 'MongoDB'],
       github: '#',
       live: '#',
@@ -37,7 +37,7 @@ export function Projects() {
     },
     {
       title: 'Password Generator',
-      description: 'A collaborative project management tool with real-time updates, task tracking, and team collaboration features.',
+      description: 'A secure password generator that creates strong, random passwords with customizable options for length, special characters, numbers, and uppercase letters.',
       technologies: ['React', 'JavaScript', 'Tailwind CSS'],
       github: '#',
       live: '#',
@@ -45,7 +45,7 @@ export function Projects() {
     },
     {
       title: 'Gaming Website',
-      description: 'A collaborative project management tool with real-time updates, task tracking, and team collaboration features.',
+      description: 'An immersive gaming website offering a collection of exciting games, leaderboards, and a seamless user experience for players to enjoy and compete in real-time.',
       technologies: ['Html', 'css', 'JavaScript'],
       github: '#',
       live: '#',
