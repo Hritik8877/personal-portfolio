@@ -29,7 +29,7 @@ export function Projects() {
     },
     {
       title: 'Mcq extractor',
-      description: 'n intelligent MCQ extraction tool that processes PDF files, extracts multiple-choice questions, and displays them in a structured format for easy learning and practice.',
+      description: 'An intelligent MCQ extraction tool that processes PDF files, extracts multiple-choice questions, and displays them in a structured format for easy learning and practice.',
       technologies: ['Html','Css', 'JavaScrript', 'Express.js', 'MongoDB'],
       github: '#',
       live: '#',
