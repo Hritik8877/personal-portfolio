@@ -37,7 +37,7 @@ export function Skills() {
       category: 'Tools & Practices',
       icon: <Tool className="w-6 h-6 text-pink-600" />,
       technologies: [
-        { name: 'Git', level: 90 },
+        { name: 'Git', level: 80 },
         { name: 'GitHub', level: 85 },
         { name: 'Postman', level: 85 },
         { name: 'Agile/Scrum', level: 80 },
