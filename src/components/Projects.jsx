@@ -47,7 +47,7 @@ export function Projects() {
       title: 'Gaming Website',
       description: 'An immersive gaming website offering a collection of exciting games, leaderboards, and a seamless user experience for players to enjoy and compete in real-time.',
       technologies: ['Html', 'css', 'JavaScript'],
-      github: '#',
+      github: 'https://github.com/Hritik8877/Gaming-Website-Frontend',
       live: '#',
       image: 'https://img.freepik.com/free-psd/video-game-landing-page_23-2149052221.jpg?t=st=1738835232~exp=1738838832~hmac=e5f162a3c2f5982e18d01bc4e30d5b9305a391c3462d5d6f6072e3545c6d0958&w=1480',
     },
