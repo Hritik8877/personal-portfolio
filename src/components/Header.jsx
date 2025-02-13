@@ -12,6 +12,9 @@ export function Header() {
     { name: 'Contact', href: '#contact' },
   ];
 
+     
+  
+
   return (
     <header className="fixed w-full bg-white shadow-sm z-50">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -29,7 +32,7 @@ export function Header() {
                 href={item.href}
                 onClick={() => setActiveLink(item.name)} // Set the active link on click
                 className={`text-gray-600 hover:text-blue-500 transition-colors ${
-                  activeLink === item.name ? 'text-blue-500' : ''
+                  activeLink === item.name ? 'text-blue-900' : ''
                 }`}
               >
                 {item.name}
@@ -61,7 +64,7 @@ export function Header() {
                     setIsMenuOpen(false); // Close the menu
                   }}
                   className={`block px-3 py-2 text-gray-600 hover:text-blue-500 ${
-                    activeLink === item.name ? 'text-blue-500' : ''
+                    activeLink === item.name ? 'text-blue-900' : ''
                   }`}
                 >
                   {item.name}
