@@ -29,7 +29,7 @@ export function Skills() {
       icon: <Database className="w-6 h-6 text-purple-600" />,
       technologies: [
         { name: 'MySQL', level: 70 },
-        { name: 'MongoDB', level: 80 },
+        { name: 'MongoDB', level: 75 },
        
       ],
     },
