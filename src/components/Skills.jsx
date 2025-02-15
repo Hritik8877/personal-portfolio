@@ -20,7 +20,7 @@ export function Skills() {
       technologies: [
         { name: 'Spring Boot', level: 70 },
         { name: 'Express.js', level: 80 },
-        { name: 'RESTful APIs', level: 85 },
+        { name: 'RESTful APIs', level: 80 },
         { name: 'Java', level: 75 },
       ],
     },
