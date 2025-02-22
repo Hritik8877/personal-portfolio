@@ -19,7 +19,7 @@ export function Skills() {
       icon: <Server className="w-6 h-6 text-indigo-600" />,
       technologies: [
         { name: 'Spring Boot', level: 70 },
-        { name: 'Express.js', level: 80 },
+        { name: 'Express.js', level: 85 },
         { name: 'RESTful APIs', level: 80 },
         { name: 'Java', level: 75 },
       ],
