@@ -7,7 +7,7 @@ export function About() {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/3">
             <div className="relative">
-              <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 opacity-75 blur"></div>
+              <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 opacity-75 blur-md"></div>
               <div className="relative">
                 <img
                   src="https://res.cloudinary.com/hritik8877/image/upload/v1738834633/qvpwksytxgnjyaoi7g1o.jpg"

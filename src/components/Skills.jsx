@@ -7,7 +7,7 @@ export function Skills() {
       category: 'Frontend Development',
       icon: <Layout className="w-6 h-6 text-blue-600" />,
       technologies: [
-        { name: 'HTML5', level: 90 },
+        { name: 'HTML5', level: 80 },
         { name: 'CSS', level: 80 },
         { name: 'JavaScript', level: 80 },
         { name: 'React', level: 75 },
@@ -20,8 +20,8 @@ export function Skills() {
       technologies: [
         { name: 'Spring Boot', level: 70 },
         { name: 'Express.js', level: 85 },
-        { name: 'RESTful APIs', level: 80 },
-        { name: 'Java', level: 75 },
+        { name: 'RESTful APIs', level: 70 },
+        { name: 'Java', level: 70 },
       ],
     },
     {
@@ -39,8 +39,8 @@ export function Skills() {
       technologies: [
         { name: 'Git', level: 80 },
         { name: 'GitHub', level: 85 },
-        { name: 'Postman', level: 85 },
-        { name: 'Agile/Scrum', level: 80 },
+        { name: 'Postman', level: 80 },
+        { name: 'Vs Code', level: 85 },
       ],
     },
   ];
