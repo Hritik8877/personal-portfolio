@@ -8,7 +8,7 @@ export function Projects() {
       description: 'A comprehensive platform helping students navigate the college admission process with personalized guidance and resources.',
       technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS','Twilio'],
       github: 'https://replit.com/@hritik84093/ctc',
-      live: 'https://replit.com/@hritik84093/ctc',
+      live: '',
       image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
     },
     {
@@ -30,7 +30,7 @@ export function Projects() {
     {
       title: 'Mcq extractor',
       description: 'An intelligent MCQ extraction tool that processes PDF files, extracts multiple-choice questions, and displays them in a structured format for easy learning and practice.',
-      technologies: ['Html','Css', 'JavaScrript', 'Express.js', 'MongoDB'],
+      technologies: ['Html','Css', 'JavaScript', 'Express.js', 'MongoDB'],
       github: '#',
       live: '#',
       image: 'https://img.freepik.com/free-vector/realistic-test-paper-composition-with-pencil-stack-students-paperwork-with-marks-correct-answers_1284-54249.jpg?t=st=1738835315~exp=1738838915~hmac=4c9af4c6079aa455e62b276f9d8063cc9cc8026f068bbbbcab9c9a5e6217cf32&w=826',
