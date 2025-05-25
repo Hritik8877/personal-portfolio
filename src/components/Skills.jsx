@@ -18,7 +18,7 @@ export function Skills() {
       category: 'Backend Development',
       icon: <Server className="w-6 h-6 text-indigo-600" />,
       technologies: [
-        { name: 'Spring Boot', level: 70 },
+        { name: 'Spring Boot', level: 60 },
         { name: 'Express.js', level: 85 },
         { name: 'RESTful APIs', level: 70 },
         { name: 'Java', level: 70 },
