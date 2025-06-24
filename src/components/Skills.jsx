@@ -7,10 +7,10 @@ export function Skills() {
       category: 'Frontend Development',
       icon: <Layout className="w-6 h-6 text-blue-600" />,
       technologies: [
-        { name: 'HTML5', level: 80 },
-        { name: 'CSS', level: 80 },
-        { name: 'JavaScript', level: 80 },
-        { name: 'React', level: 75 },
+        { name: 'HTML5', level: 75 },
+        { name: 'CSS', level: 70 },
+        { name: 'JavaScript', level: 70 },
+        { name: 'React', level: 70 },
     
       ],
     },
@@ -19,7 +19,7 @@ export function Skills() {
       icon: <Server className="w-6 h-6 text-indigo-600" />,
       technologies: [
         { name: 'Spring Boot', level: 60 },
-        { name: 'Express.js', level: 85 },
+        { name: 'Express.js', level: 75 },
         { name: 'RESTful APIs', level: 70 },
         { name: 'Java', level: 70 },
       ],
@@ -29,7 +29,7 @@ export function Skills() {
       icon: <Database className="w-6 h-6 text-purple-600" />,
       technologies: [
         { name: 'MySQL', level: 70 },
-        { name: 'MongoDB', level: 75 },
+        { name: 'MongoDB', level: 70 },
        
       ],
     },
@@ -37,8 +37,8 @@ export function Skills() {
       category: 'Tools & Practices',
       icon: <Tool className="w-6 h-6 text-pink-600" />,
       technologies: [
-        { name: 'Git', level: 80 },
-        { name: 'GitHub', level: 85 },
+        { name: 'Git', level: 70 },
+        { name: 'GitHub', level: 75 },
         { name: 'Postman', level: 80 },
         { name: 'Vs Code', level: 85 },
       ],
