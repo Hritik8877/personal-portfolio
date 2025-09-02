@@ -9,7 +9,7 @@ export function Projects() {
       technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS','Twilio'],
       github: 'https://replit.com/@hritik84093/ctc',
       live: '',
-      image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800',
+      image: 'https://res.cloudinary.com/hritik8877/image/upload/v1756800292/fe121850-cfb0-476b-a475-3b903b5697c9_wdmotj.png',
     },
     {
       title: 'Social Networking API',
@@ -20,13 +20,14 @@ export function Projects() {
       image: 'https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&q=80&w=800',
     },
     {
-      title: 'Task Management Dashboard',
-      description: 'A collaborative project management tool with real-time updates, task tracking, and team collaboration features.',
-      technologies: ['React', 'JavaScript', 'Firebase', 'Material-UI'],
-      github: '#',
-      live: '#',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800',
-    },
+  title: 'CleanCare - eLaundry Platform',
+  description: 'A full-featured laundry management platform with customer and shop-owner roles, order tracking, service management, and real-time status updates.',
+  technologies: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
+  github: '#',
+  live: 'https://cleancare-crsv.onrender.com/',
+  image: 'https://res.cloudinary.com/hritik8877/image/upload/v1756799941/8e7d6e7e-4aad-472b-bdbc-6f3ddd431640_n5ozl1.png',
+}
+,
     {
       title: 'Mcq extractor',
       description: 'An intelligent MCQ extraction tool that processes PDF files, extracts multiple-choice questions, and displays them in a structured format for easy learning and practice.',
