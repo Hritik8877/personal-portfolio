@@ -6,32 +6,32 @@ export function Projects() {
     {
       title: 'College Counseling Call Bot',
       description: 'A comprehensive platform helping students navigate the college admission process with personalized guidance and resources.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS','Twilio'],
+      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Twilio'],
       github: 'https://replit.com/@hritik84093/ctc',
       live: '',
       image: 'https://res.cloudinary.com/hritik8877/image/upload/v1756800292/fe121850-cfb0-476b-a475-3b903b5697c9_wdmotj.png',
     },
     {
-      title: 'Social Networking API',
-      description: 'RESTful API service supporting social networking features including user management, posts, comments, and real-time notifications.',
-      technologies: ['Spring Boot', 'MySql', , 'JWT'],
+      title: 'FixNow - On-Demand Home Service Platform',
+      description: 'Developed a scalable MERN-based platform enabling users to discover and book nearby service professionals for home maintenance tasks. Implemented role-based authentication, dynamic service listings, order management, and real-time status tracking.',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Redux Toolkit'],
       github: '#',
       live: '#',
-      image: 'https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&q=80&w=800',
+      image: 'https://res.cloudinary.com/hritik8877/image/upload/v1776784317/Screenshot_2026-04-21_143548_dsfgt0.png',
     },
     {
-  title: 'CleanCare - eLaundry Platform',
-  description: 'A full-featured laundry management platform with customer and shop-owner roles, order tracking, service management, and real-time status updates.',
-  technologies: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
-  github: '#',
-  live: 'https://cleancare-crsv.onrender.com/',
-  image: 'https://res.cloudinary.com/hritik8877/image/upload/v1756799941/8e7d6e7e-4aad-472b-bdbc-6f3ddd431640_n5ozl1.png',
-}
-,
+      title: 'CleanCare - eLaundry Platform',
+      description: 'A full-featured laundry management platform with customer and shop-owner roles, order tracking, service management, and real-time status updates.',
+      technologies: ['React', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
+      github: '#',
+      live: 'https://cleancare-crsv.onrender.com/',
+      image: 'https://res.cloudinary.com/hritik8877/image/upload/v1756799941/8e7d6e7e-4aad-472b-bdbc-6f3ddd431640_n5ozl1.png',
+    }
+    ,
     {
       title: 'Mcq extractor',
       description: 'An intelligent MCQ extraction tool that processes PDF files, extracts multiple-choice questions, and displays them in a structured format for easy learning and practice.',
-      technologies: ['Html','Css', 'JavaScript', 'Express.js', 'MongoDB'],
+      technologies: ['Html', 'Css', 'JavaScript', 'Express.js', 'MongoDB'],
       github: '#',
       live: '#',
       image: 'https://img.freepik.com/free-vector/realistic-test-paper-composition-with-pencil-stack-students-paperwork-with-marks-correct-answers_1284-54249.jpg?t=st=1738835315~exp=1738838915~hmac=4c9af4c6079aa455e62b276f9d8063cc9cc8026f068bbbbcab9c9a5e6217cf32&w=826',
@@ -67,8 +67,8 @@ export function Projects() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div 
-              key={project.title} 
+            <div
+              key={project.title}
               className="group bg-white rounded-2xl shadow-[0_0_50px_rgba(8,_112,_184,_0.07)] overflow-hidden transform hover:-translate-y-2 transition-all duration-300 border border-gray-100"
             >
               <div className="relative overflow-hidden">
